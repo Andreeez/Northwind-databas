@@ -1,8 +1,11 @@
 # Northwind-databas
 
 #1 SELECT DISTINCT Country FROM `Employees`;
+
 #2 SELECT CategoryID, CategoryName FROM `Categories`ORDER BY CategoryName DESC;
+
 #3 SELECT CompanyName, ContactName, Phone, Fax FROM `Customers` WHERE Country = "Germany" ORDER BY CompanyName DESC;
+
 #4 SELECT City FROM `Customers` WHERE Country = "Sweden";
 #5 SELECT ProductName FROM `Products` WHERE ProductName LIKE "%Br-d%";
 #6 SELECT FirstName, LastName FROM `Employees` WHERE BirthDate = "1966-01-27";
