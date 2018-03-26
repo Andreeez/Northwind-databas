@@ -37,6 +37,10 @@
 #18 SELECT CustomerID, COUNT(*) AS AntalOrder FROM `Orders` WHERE OrderDate > "1998-01-01" AND OrderDate < "1998-12-31" GROUP BY CustomerID HAVING AntalOrder > 10
 
 #19 SELECT OrderID, SUM(UnitPrice*Quantity) AS OrderSumma FROM `Order_Details` WHERE OrderID > 10500 GROUP BY OrderID HAVING OrderSumma < 10000 ORDER BY OrderSumma DESC
+
+#20 SELECT ProductID, SUM(Quantity) FROM `Order_Details` GROUP BY ProductID ORDER BY SUM(Quantity) DESC LIMIT 10
+
+#21 
     
 
 
